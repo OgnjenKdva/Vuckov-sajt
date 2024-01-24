@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Sevillana&display=swap');
+
+body {
+    background-color: rgb(238, 209, 140);
+    margin: 0;
+    padding: 0;
+}
+
+.nav_div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.nav_div nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav h1 {
+    margin: 0;
+    font-family: "Sevillana";
+    font-size: 40px;
+}
+
+.about {
+    display: flex;
+    gap: 20px;
+    margin-left: 5%;
+}
+
+.about ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.about ul li {
+    padding: 0;
+    margin: 10px 25px;
+}
+
+.about ul li a {
+    display: inline-block;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: larger;
+    border-radius: 10px;
+    transition: ease-in-out 0.65s;
+}
+
+.about ul li a:hover {
+    background-color: rgb(235, 189, 82);
+}
+
+#shop {
+    background-color: rgb(246, 203, 103);
+}
+
+.picture1 {
+    margin-top: 95px;
+    position: relative;
+}
+
+.picture1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.icons {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 35px;
+    transition: color 0.3s; 
+}
+
+.icons i{
+    margin: 8px;
+    transition: ease-in-out 0.3s;
+}
+
+.icons i:hover {
+    transform: scale(1.3);
+}
+
+.icons a {
+    text-decoration: none; 
+    color: inherit; 
+    display: inline-block; 
+}
+
+.icons a:hover {
+    color: inherit; 
+}
